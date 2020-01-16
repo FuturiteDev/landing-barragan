@@ -95,7 +95,7 @@
             <div class="col-sm-12 col-xs-12">
                 <div class="col-sm-7 col-md-6">
                     <p class="titulo">
-                        El oftalmólogo especialista que ofrece un diagnóstico ético, servicio personalizado y la mejor tecnología.
+                        El oftalmólogo que ofrece un servicio profesional, con la mejor tecnología.
                     </p>
                     <p>
                         Enrique Barragán es un oftalmólogo certificado, experto en cirugías láser (Lasik), cirugía de catarata, y diagnóstico y tratamiento de queratocono.
@@ -138,7 +138,7 @@
                 <img src="assets/img/img2.jpg" class="img-responsive">
                 <p class="sub_titulo">Cataratas</p>
                 <p class="parrafo_uno">
-                    Mediante la cirugía de cataratas, nuestro oftalmologo reemplaza el cristalino natural afectado por un cristalino artificial transparente, llamado lente intraocular.
+                    Mediante la cirugía de cataratas, nuestro oftalmólogo reemplaza el cristalino natural afectado por un cristalino artificial transparente, llamado lente intraocular.
                 </p>
             </div>
             <div class="col-sm-4 espaciados_img">
@@ -161,7 +161,7 @@
                     Presbicia
                 </p>
                 <p class="texto_2">
-                    Nuestro oftalmólogo ofrece tratamiento para la presbicia, que provoca que los ojos pierdan gradualmente la capacidad para ver objetos de cerca, debido al envejecimiento. 
+                    La presbicia es la dificultad para enfocar objetos cercanos, nuestro oftalmólogo tiene más de 15 años de experiencia tratando este padecimiento.
                 </p>
             </div>
         </div>
