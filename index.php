@@ -40,7 +40,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     
-
+     <!-- Código de instalación Cliengo para http://futurite.info/landing/barragan/ --> <script type="text/javascript">(function () { var ldk = document.createElement('script'); ldk.type = 'text/javascript'; ldk.async = true; ldk.src = 'https://s.cliengo.com/weboptimizer/5e220cfee4b0821823544ec3/5e220d00e4b0821823544ec9.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ldk, s); })();</script>
     <!-- Analytics code -->
     <?php include_once('src/partial/seo/analytics.php'); ?>
 </head>
@@ -91,11 +91,11 @@
     </div>
     <!-- h_sec2 -->
     <div class="h_sec2">
-        <div class="container">
-            <div class="col-sm-12 col-xs-12">
-                <div class="col-sm-7 col-md-6">
+        <div class="container-fluid pd0">
+            <div class="col-sm-8 pd0">
+                <div class="parrafo_del_doctor">
                     <p class="titulo">
-                        El oftalmólogo que ofrece un servicio profesional, con la mejor tecnología.
+                        Oftalmólogo que ofrece servicio profesional, con la mejor tecnología.
                     </p>
                     <p>
                         Enrique Barragán es un oftalmólogo certificado, experto en cirugías láser (Lasik), cirugía de catarata, y diagnóstico y tratamiento de queratocono.
@@ -107,9 +107,9 @@
                         Ha sido capacitado por oftalmólogos reconocidos mundialmente y también ha participado en investigaciones y proyectos internacionales.
                     </p>
                 </div>
-                <div class="col-sm-5 col-md-6 col-xs-12">
-                    <img src="assets/img/Dr-Barragan.jpg" class="img-responsive">
-                </div>
+            </div>
+            <div class="col-sm-4 pd0">
+                <img src="assets/img/Dr-Barragan.jpg" class="img-responsive">
             </div>
         </div>
     </div>

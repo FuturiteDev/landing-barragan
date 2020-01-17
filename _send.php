@@ -13,7 +13,7 @@ foreach ($_POST as $key => $value) {
 	$message = $message.ucwords($key).": ".$value."\n";
 }
 
-$to = 'magalydejesus24@gmail.com';
+$to = 'magalydejesus24@gmail.com, contacto@drenriquebarraganoftalmologo.com, carolina@drenriquebarraganoftalmologo.com ';
 //$to = ', adrian.garza@futurite.com';
 $title = 'Se ha llenado la forma de contacto de DR Barragán';
 $headers = 'From: Alertas Contacto <alertas@futurite.com>' . "\r\n".
