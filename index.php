@@ -40,7 +40,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     
-     <!-- Código de instalación Cliengo para http://futurite.info/landing/barragan/ --> <script type="text/javascript">(function () { var ldk = document.createElement('script'); ldk.type = 'text/javascript'; ldk.async = true; ldk.src = 'https://s.cliengo.com/weboptimizer/5e220cfee4b0821823544ec3/5e220d00e4b0821823544ec9.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ldk, s); })();</script>
+
     <!-- Analytics code -->
     <?php include_once('src/partial/seo/analytics.php'); ?>
 </head>
@@ -57,7 +57,7 @@
 
     <!-- Page content section -->
     <!-- h_sec1 -->
-    <div class="h_sec1">
+    <div class="h_sec1" id="contactanos">
         <div class="container">
             <div class="col-sm-9 col-md-7 col-xs-12 textoNe">
                 <p class="titulo1">
@@ -95,7 +95,7 @@
             <div class="col-sm-8 pd0">
                 <div class="parrafo_del_doctor">
                     <p class="titulo">
-                        Oftalmólogo que ofrece servicio profesional, con la mejor tecnología.
+                        Oftalmólogo que ofrece un servicio profesional, con la mejor tecnología.
                     </p>
                     <p>
                         Enrique Barragán es un oftalmólogo certificado, experto en cirugías láser (Lasik), cirugía de catarata, y diagnóstico y tratamiento de queratocono.
@@ -111,6 +111,25 @@
             <div class="col-sm-4 pd0">
                 <img src="assets/img/Dr-Barragan.jpg" class="img-responsive">
             </div>
+            <!--<div class="col-sm-12 col-xs-12 pd0">
+                <div class="col-sm-7 col-md-6 thumbnail">
+                    <p class="titulo">
+                        El oftalmólogo que ofrece un servicio profesional, con la mejor tecnología.
+                    </p>
+                    <p>
+                        Enrique Barragán es un oftalmólogo certificado, experto en cirugías láser (Lasik), cirugía de catarata, y diagnóstico y tratamiento de queratocono.
+                    </p>
+                    <p>
+                        Fue uno de los primeros doctores certificados en México en realizar la cirugía Lasik sin cuchilla, así como las cirugías Supracor para la presbicia.
+                    </p>
+                    <p>
+                        Ha sido capacitado por oftalmólogos reconocidos mundialmente y también ha participado en investigaciones y proyectos internacionales.
+                    </p>
+                </div>
+                <div class="col-sm-5 col-md-6 col-xs-12 thumbnail">
+                    <img src="assets/img/Dr-Barragan.jpg" class="img-responsive">
+                </div>
+            </div>-->
         </div>
     </div>
     <!-- h_sec3 -->
@@ -122,12 +141,12 @@
         </div>
     </div>
     <!-- h_sec4 -->
-    <div class="h_sec4">
+    <div class="h_sec4" id="lasik">
         <div class="container">
             <p class="titulo">
                 Conoce los servicios y procedimientos que nuestro<br> oftalmólogo en Monterrey te ofrece
             </p>
-            <div class="col-sm-4 espaciados_img">
+            <div class="col-sm-4 espaciados_img" id="cataratas">
                 <img src="assets/img/img1.jpg" class="img-responsive">
                 <p class="sub_titulo">Cirugía Lasik</p>
                 <p class="parrafo_uno">
@@ -141,8 +160,8 @@
                     Mediante la cirugía de cataratas, nuestro oftalmólogo reemplaza el cristalino natural afectado por un cristalino artificial transparente, llamado lente intraocular.
                 </p>
             </div>
-            <div class="col-sm-4 espaciados_img">
-                <img src="assets/img/img3.jpg" class="img-responsive">
+            <div class="col-sm-4 espaciados_img" id="queratocono">
+                <img src="assets/img/queratocono.gif" class="img-responsive">
                 <p class="sub_titulo">Queratocono</p>
                 <p class="parrafo_uno">
                     El crosslinking es uno de los tratamientos más eficaces para el queratocono, el cual, si no es atendido, provoca que la córnea se adelgace y sobresalga como un cono, haciendo que los rayos de luz se desenfoquen y la visión sea borrosa y distorsionada.
@@ -151,7 +170,7 @@
         </div>
     </div>
     <!-- h_sec5 -->
-    <div class="h_sec5">
+    <div class="h_sec5" id="presbicia">
         <div class="col-sm-6 pd0">
             <div class="fondo1"></div>
         </div>
@@ -169,7 +188,7 @@
     <!-- h_sec6 -->
     <div class="h_sec6">
         <div class="container">
-            <div class="col-sm-12">
+            <div class="col-sm-12" id="optica">
                 <div class="col-md-5 col-sm-6">
                     <p class="optima">Óptica</p>
                     <p>Contamos con óptica avanzada, con las mejores opciones para tu ojos.</p>
