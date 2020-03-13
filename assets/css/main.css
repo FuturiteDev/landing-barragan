@@ -6,7 +6,8 @@
   --texto_footer: #706f9b;
   --negro: #000000;
   --blanco: #fff;
-  --fondo_footer: #262545; }
+  --fondo_footer: #262545;
+  --testimoniales: #d8d6e8; }
 
 html, body {
   font-family: 'Montserrat', sans-serif;
@@ -21,14 +22,70 @@ header {
   width: 100%;
   height: 100px;
   position: absolute; }
+
 .pd0 {
   padding: 0; }
-.telephoneHeader {
-    height: 50px !important;
-    margin: auto;
-    margin-top: 20px;
-    float: right;
-}
+
+.testimoniales {
+  padding: 50px 0px 10px;
+  background: var(--testimoniales);
+  height: 600px;
+  text-align: left;
+  /****/
+  /***/ }
+  .testimoniales .thumbnail {
+    display: block;
+    padding: 10px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #d8d6e8;
+    border: 1px solid #d8d6e8;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out; }
+  .testimoniales .bx-wrapper {
+    -moz-box-shadow: 0 0 5px #ccc;
+    -webkit-box-shadow: 0 0 5px #ccc;
+    box-shadow: 0 0 0px #ccc;
+    border: 5px solid #d8d6e8;
+    background: #d8d6e8; }
+  .testimoniales .testimoniales_titulo {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 30px; }
+  .testimoniales .bx-wrapper .bx-next {
+    display: none; }
+  .testimoniales .bx-wrapper .bx-prev {
+    display: none; }
+  .testimoniales .bx-wrapper .bx-pager.bx-default-pager a:hover, .testimoniales .bx-wrapper .bx-pager.bx-default-pager a.active, .testimoniales .bx-wrapper .bx-pager.bx-default-pager a:focus {
+    background: #5cd09a; }
+  .testimoniales .bx-wrapper .bx-pager, .testimoniales .bx-wrapper .bx-controls-auto {
+    bottom: -50px; }
+  .testimoniales .bx-wrapper .bx-pager.bx-default-pager a {
+    background: #97d2b6;
+    width: 12px;
+    height: 20px;
+    border-radius: 50%; }
+  .testimoniales .bx-wrapper img {
+    max-width: 100% !important;
+    display: initial !important; }
+  .testimoniales .div_testimonios {
+    padding: 15px;
+    background: #fff;
+    text-align: left;
+    height: 330px; }
+    .testimoniales .div_testimonios img {
+      margin: auto;
+      margin-top: -20px;
+      height: 20px; }
+    .testimoniales .div_testimonios .nombre_testimonio {
+      font-weight: 700;
+      font-size: 25px; }
+    .testimoniales .div_testimonios .parrafo_testimonio {
+      font-size: 13px;
+      padding-top: 12px; }
 
 .h_sec1 {
   background: url("../img/bg1.jpg") no-repeat;
@@ -73,10 +130,7 @@ header {
     font-size: 25px;
     color: var(--blanco);
     letter-spacing: 1px; }
-.h_sec2 .parrafo_del_doctor {
-    padding-left: 280px;
-    padding-top: 0px;
-}
+
 .h_sec2 {
   padding-top: 100px; }
   .h_sec2 .titulo {
@@ -86,10 +140,10 @@ header {
     letter-spacing: 1px;
     padding-bottom: 20px; }
   .h_sec2 img {
-    margin-top: -80px;
-    float: right;
-    height: 450px;
-}
+    margin-top: -80px; }
+  .h_sec2 .parrafo_del_doctor {
+    padding-left: 280px;
+    padding-top: 0px; }
 
 .h_sec3 {
   padding: 30px 0px 30px;
@@ -245,22 +299,12 @@ footer {
       background: var(--verde);
       font-weight: 700;
       letter-spacing: 1px; }
-@media (max-width: 1320px) and (min-width: 1301px) {
-  .h_sec2 .parrafo_del_doctor {
-      padding-left: 200px;
-  }
-}
+
 @media (max-width: 1300px) and (min-width: 1251px) {
-  .h_sec2 .parrafo_del_doctor {
-      padding-left: 200px;
-  }
   .h_sec5 .fondo2 {
     padding: 80px 100px 20px; } }
 
 @media (max-width: 1250px) and (min-width: 1201px) {
-  .h_sec2 .parrafo_del_doctor {
-      padding-left: 200px;
-  }
   .h_sec5 .fondo2 {
     padding: 80px 100px 20px; } }
 
@@ -275,18 +319,11 @@ footer {
     width: 20%; } }
 
 @media (max-width: 989px) and (min-width: 768px) {
-  .h_sec7 .subtitulo {
-    padding: 0px 50px 0px;
-  }
-  .h_sec2 .parrafo_del_doctor {
-      padding-left: 100px;
-      padding-top: 50px;
-  }
-  .h_sec2 img {
-      height: 350px;
-  }
   .h_sec2 {
     padding-top: 20px; }
+    .h_sec2 .parrafo_del_doctor {
+      padding-left: 100px;
+      padding-top: 50px; }
   .h_sec2 img {
     margin-top: 20px; }
   .h_sec5 .fondo2 {
@@ -294,30 +331,7 @@ footer {
     height: 350px;
     background: var(--azul_purpura); } }
 
-
 @media (max-width: 767px) and (min-width: 480px) {
-  .h_sec2 .parrafo_del_doctor {
-      padding-left: 10px;
-  }
-  .h_sec6 {
-      font-size: 15px;
-  }
-  .h_sec2 img {
-      margin-top: 0px;
-      float: right;
-      height: 200px;
-  }
-  header {
-      position: inherit;
-      background: #3c3b63;
-  }
-  .h_sec1 {
-      height: 700px;
-      border: 0px solid;
-  }
-  .h_sec1 .textoNe {
-      padding-top: 50px;
-  }
   .h_sec1 .titulo1 {
     font-size: 25px;
     line-height: 30px; }
@@ -362,19 +376,15 @@ footer {
   .h_sec6 {
     padding: 20px 0px 20px;
     height: 420px;
-    background-position: left;}
+    background-position: center center; }
   .h_sec7 {
     padding: 20px 0px 10px; }
   .h_sec7 .titulo {
     font-weight: 600;
     font-size: 20px; }
   .h_sec7 .subtitulo {
-    font-size: 15px;
     padding: 0px 0px 0px;
     padding-top: 20px; }
-    .h_sec9 label {
-      font-size: 15px;
-  }
   .h_sec8 {
     padding: 30px 0px 30px;
     background: var(--verde); }
@@ -389,28 +399,6 @@ footer {
     height: 550px; } }
 
 @media (max-width: 479px) and (min-width: 0px) {
-  .h_sec2 .parrafo_del_doctor {
-      padding-left: 10px;
-  }
-  .h_sec6 {
-      font-size: 15px;
-  }
-  .h_sec2 img {
-      margin-top: 0px;
-      float: right;
-      height: 200px;
-  }
-  header {
-      position: inherit;
-      background: #3c3b63;
-  }
-  .h_sec1 {
-      height: 700px;
-      border: 0px solid;
-  }
-  .h_sec1 .textoNe {
-      padding-top: 50px;
-  }
   .h_sec1 .titulo1 {
     font-size: 25px;
     line-height: 30px; }
@@ -421,6 +409,17 @@ footer {
     font-size: 20px; }
   .h_sec2 {
     padding-top: 20px; }
+    .h_sec2 .parrafo_del_doctor {
+      padding-left: 10px; }
+    .h_sec2 img {
+      margin-top: 0px;
+      float: right;
+      height: 200px; }
+    .h_sec2 .titulo {
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      padding-bottom: 20px; }
   .h_sec2 .titulo {
     font-size: 18px;
     font-weight: 600;
@@ -455,19 +454,15 @@ footer {
   .h_sec6 {
     padding: 20px 0px 20px;
     height: 420px;
-    background-position: left;}
+    background-position: center center; }
   .h_sec7 {
     padding: 20px 0px 10px; }
   .h_sec7 .titulo {
     font-weight: 600;
     font-size: 20px; }
   .h_sec7 .subtitulo {
-    font-size: 15px;
     padding: 0px 0px 0px;
     padding-top: 20px; }
-    .h_sec9 label {
-      font-size: 15px;
-  }
   .h_sec8 {
     padding: 30px 0px 30px;
     background: var(--verde); }

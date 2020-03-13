@@ -66,6 +66,30 @@ $( document ).ready(function() {
         $("input").addClass("invalid");
     });
 
+
+	//Clientes Slider logos
+    $('.slider-cliente').bxSlider({
+    	/*preloadImages: 'all',
+    	auto: true,
+    	pager: true,
+    	minSlides: 1,
+    	maxSlides: 3,
+    	moveSlides: 1,
+    	slideWidth: 450,
+    	shrinkItems: false,*/
+
+        preloadImages: 'all',
+        auto: true,
+        controls: true,
+        pager: true,
+        pause: 2000,
+        speed: 300,
+        minSlides: 1,
+        maxSlides: 3,
+        moveSlides: 1,
+        slideWidth: 370
+    });
+
 });
 
 

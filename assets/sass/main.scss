@@ -6,6 +6,7 @@
     --negro: #000000;
     --blanco: #fff;
     --fondo_footer: #262545;
+    --testimoniales: #d8d6e8;
 }
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800,900&display=swap');
 html, body { 
@@ -23,6 +24,80 @@ header{
 	position: absolute;
 }
 .pd0{padding: 0;}
+.testimoniales{
+	padding: 50px 0px 10px;
+	background: var(--testimoniales);
+	height: 600px;
+	text-align: left;
+	.thumbnail {
+	    display: block;
+	    padding: 10px;
+	    margin-bottom: 20px;
+	    line-height: 1.42857143;
+	    background-color: #d8d6e8;
+	    border: 1px solid #d8d6e8;
+	    border-radius: 4px;
+	    -webkit-transition: border .2s ease-in-out;
+	    -o-transition: border .2s ease-in-out;
+	    transition: border .2s ease-in-out;
+	}
+	.bx-wrapper {
+	    -moz-box-shadow: 0 0 5px #ccc;
+	    -webkit-box-shadow: 0 0 5px #ccc;
+	    box-shadow: 0 0 0px #ccc;
+	    border: 5px solid #d8d6e8;
+	    background: #d8d6e8;
+	}
+	.testimoniales_titulo{
+		text-align: center;
+		font-size: 40px;
+		font-weight: 700;
+		padding-bottom: 30px;
+	}
+	.bx-wrapper .bx-next {
+	    display: none;
+	}
+	.bx-wrapper .bx-prev {
+	    display: none;
+	}
+	.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus {
+	    background: #5cd09a;
+	}
+	/****/
+	.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+	    bottom: -50px;
+	}
+	.bx-wrapper .bx-pager.bx-default-pager a {
+	    background: #97d2b6;
+	    width: 12px;
+	    height: 20px;
+	    border-radius: 50%;
+	}
+	/***/
+	.bx-wrapper img {
+		max-width: 100% !important; 
+		display: initial !important;
+	}
+	.div_testimonios{
+	    padding: 15px;
+	    background: #fff;
+	    text-align: left;
+	    height: 330px;
+		img{
+			margin: auto;
+		    margin-top: -20px;
+		    height: 20px;
+		}
+		.nombre_testimonio{
+			font-weight: 700;
+			font-size: 25px;
+		}
+		.parrafo_testimonio{
+			font-size: 13px;
+    		padding-top: 12px;
+		}
+	}
+}
 .h_sec1{
     background: url('../img/bg1.jpg')no-repeat;
     width: 100%;
@@ -85,6 +160,10 @@ header{
 	}
 	img{
 		margin-top: -80px;
+	}
+	.parrafo_del_doctor {
+	    padding-left: 280px;
+	    padding-top: 0px;
 	}
 }
 .h_sec3{
@@ -293,6 +372,10 @@ footer{
 @media (max-width: 989px) and (min-width: 768px) {
 	.h_sec2 {
 	    padding-top: 20px;
+	    .parrafo_del_doctor {
+		    padding-left: 100px;
+		    padding-top: 50px;
+		}
 	}
 	.h_sec2 img {
 	    margin-top: 20px;
@@ -403,6 +486,20 @@ footer{
 	}
 	.h_sec2 {
 	    padding-top: 20px;
+	    .parrafo_del_doctor {
+		    padding-left: 10px;
+		}
+		img {
+		    margin-top: 0px;
+		    float: right;
+		    height: 200px;
+		}
+		.titulo {
+		    font-size: 18px;
+		    font-weight: 600;
+		    letter-spacing: 1px;
+		    padding-bottom: 20px;
+		}
 	}
 	.h_sec2 .titulo {
 	    font-size: 18px;
