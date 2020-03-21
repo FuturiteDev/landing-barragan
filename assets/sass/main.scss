@@ -574,3 +574,17 @@ footer{
 	    height: 550px;
 	}
 }
+
+
+/* Covid19 */
+.covid19 .modal-content {
+    background: transparent;
+    box-shadow: none;
+    border: 0px;
+}
+.covid19 button.close {
+    position: absolute;
+    right: 25px;
+    top: 15px;
+    font-size: 40px;
+}

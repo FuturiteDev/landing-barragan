@@ -50,6 +50,20 @@
 <!-- Preloader -->
 <div class="preloader"></div>
 
+<!-- Modal -->
+    <div class="covid19">
+        <div class="modal fade" id="popUp" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>         
+                        <img width="100%" src="assets/img/DrBarragan.jpg" alt="Comunicado COVID19">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 <!-- All page content goes inside this div -->
 <div id="pageContent" class="main-wrapper">
 
@@ -340,10 +354,8 @@
 </body>
 </html>
 
-<script>
-    $(document).ready(function(){
-      $("button").click(function(){
-        $("input").addClass("invalid");
-      });
+<script type="text/javascript">
+    $(window).on('load',function(){
+        $('#popUp').modal('show');
     });
 </script>
