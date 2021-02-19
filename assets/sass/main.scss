@@ -20,8 +20,21 @@ html, body {
 }
 header{
 	width: 100%;
-	height: 100px;
+	min-height: 100px;
+	height: auto;
 	position: absolute;
+	.logo {
+		margin-top: 20px;
+	}
+	.tels {
+		padding: 10px 0px;
+		.datos {
+			text-align: left;
+			color: white;
+			font-weight: bold;
+			float: left;
+		}
+	}	
 }
 .pd0{padding: 0;}
 .testimoniales{
@@ -204,18 +217,18 @@ header{
 		height: 350px;
 		background-position: center;
 	}
-	.fondo2{
+	.fondo2 {
 		padding: 80px 180px 20px;
 		height: 350px;
 		background: var(--azul_purpura);
-		.texto_1{
+		.texto_1 {
 			font-weight: 800;
 			text-align: right;
 			color: var(--blanco);
 			letter-spacing: 1px;
 			font-size: 30px;
 		}
-		.texto_2{
+		.texto_2 {
 			text-align: right;
 			color: var(--blanco);
 		}
@@ -266,7 +279,15 @@ header{
     background-position: center top;
     background-size: cover;
     width: 100%;
-    height: 450px;
+    min-height: 450px;
+    height: auto;
+    .titulo_direccionesUn {
+    	color: var(--blanco);
+    	font-weight: 800;
+    	letter-spacing: 1px;
+    	font-size: 25px;
+    	padding-bottom: 20px;
+    }
     .titulo{
     	color: var(--blanco);
     	font-weight: 800;
@@ -470,10 +491,33 @@ footer{
 	.h_sec9 {
 	    padding: 50px 0px 50px;
 	    background-position: right top;
-	    height: 550px;
+	    min-height: 550px;
+	    height: auto;
 	}
 }
 @media (max-width: 479px) and (min-width: 0px) {
+  	header {
+    	width: 100%;
+     	min-height: 100px;
+     	height: auto;
+       	position: relative;
+      	background: #3c3b63;
+      	padding-bottom: 20px;
+      	.telephoneHeader {
+      		margin-top: 20px;
+      		max-width: 80%;
+      	}
+  	}
+  	.h_sec1 {
+  		min-height: 600px;
+  		height: auto;
+  		padding: 20px 0px;
+  		.textoNe {
+      		color: var(--blanco);
+      		padding-top: 0px;
+  		}
+  	}	
+
 	.h_sec1 .titulo1 {
 	    font-size: 25px;
 	    line-height: 30px;
@@ -571,7 +615,11 @@ footer{
 	.h_sec9 {
 	    padding: 50px 0px 50px;
 	    background-position: right top;
-	    height: 550px;
+	    min-height: 550px;
+	    height: auto;
+	}
+	footer {
+	    padding: 20px 10px 10px;
 	}
 }
 

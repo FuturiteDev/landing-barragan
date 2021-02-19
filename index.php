@@ -312,7 +312,12 @@
     <!-- h_sec9 -->
     <div class="h_sec9">
         <div class="container">
-            <div class="col-md-6 col-sm-9">
+            <div class="col-md-6 col-sm-6">
+                <p class="titulo_direccionesUn">
+                    Hidalgo 2040, PB Consultorio 9, Col. Obispado en Monterrey.
+                </p>
+            </div>
+            <div class="col-md-6 col-sm-6">
                 <p class="titulo">¡Programa tu cita ahora!</p>
                 <form>
                     <div class="col-sm-12 bttom">
