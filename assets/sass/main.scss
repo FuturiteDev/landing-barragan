@@ -287,6 +287,7 @@ header{
     	letter-spacing: 1px;
     	font-size: 25px;
     	padding-bottom: 20px;
+    	margin-top: 120px;
     }
     .titulo{
     	color: var(--blanco);
@@ -493,6 +494,9 @@ footer{
 	    background-position: right top;
 	    min-height: 550px;
 	    height: auto;
+	    .titulo_direccionesUn {
+	    	margin-top: 0px;
+	    }
 	}
 }
 @media (max-width: 479px) and (min-width: 0px) {
@@ -617,6 +621,9 @@ footer{
 	    background-position: right top;
 	    min-height: 550px;
 	    height: auto;
+	    .titulo_direccionesUn {
+	    	margin-top: 0px;
+	    }
 	}
 	footer {
 	    padding: 20px 10px 10px;

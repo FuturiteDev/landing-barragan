@@ -249,7 +249,8 @@ header {
     font-weight: 800;
     letter-spacing: 1px;
     font-size: 25px;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    margin-top: 120px; }
   .h_sec9 .titulo {
     color: var(--blanco);
     font-weight: 800;
@@ -414,7 +415,9 @@ footer {
     padding: 50px 0px 50px;
     background-position: right top;
     min-height: 550px;
-    height: auto; } }
+    height: auto; }
+    .h_sec9 .titulo_direccionesUn {
+      margin-top: 0px; } }
 
 @media (max-width: 479px) and (min-width: 0px) {
   header {
@@ -511,6 +514,8 @@ footer {
     background-position: right top;
     min-height: 550px;
     height: auto; }
+    .h_sec9 .titulo_direccionesUn {
+      margin-top: 0px; }
   footer {
     padding: 20px 10px 10px; } }
 
