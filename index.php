@@ -155,79 +155,7 @@
             </p>
         </div>
     </div>
-    <!-- h_sec4 -->
-    <div class="h_sec4" id="lasik">
-        <div class="container">
-            <p class="titulo">
-                Conoce los servicios y procedimientos que nuestro<br> oftalmólogo en Monterrey te ofrece
-            </p>
-            <div class="col-sm-4 espaciados_img" id="cataratas">
-                <img src="assets/img/img1.jpg" class="img-responsive">
-                <p class="sub_titulo">Cirugía Lasik</p>
-                <p class="parrafo_uno">
-                    Con esta cirugía láser, el oftalmólogo corrige la miopía, la hipermetropía y el astigmatismo, ayudando a prescindir de los lentes para realizar las actividades diarias.
-                </p>
-            </div>
-            <div class="col-sm-4 espaciados_img">
-                <img src="assets/img/img2.jpg" class="img-responsive">
-                <p class="sub_titulo">Cataratas</p>
-                <p class="parrafo_uno">
-                    Mediante la cirugía de cataratas, nuestro oftalmólogo reemplaza el cristalino natural afectado por un cristalino artificial transparente, llamado lente intraocular.
-                </p>
-            </div>
-            <div class="col-sm-4 espaciados_img" id="queratocono">
-                <img src="assets/img/queratocono.gif" class="img-responsive">
-                <p class="sub_titulo">Queratocono</p>
-                <p class="parrafo_uno">
-                    El crosslinking es uno de los tratamientos más eficaces para el queratocono, el cual, si no es atendido, provoca que la córnea se adelgace y sobresalga como un cono, haciendo que los rayos de luz se desenfoquen y la visión sea borrosa y distorsionada.
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- h_sec5 -->
-    <div class="h_sec5" id="presbicia">
-        <div class="col-sm-6 pd0">
-            <div class="fondo1"></div>
-        </div>
-        <div class="col-sm-6 pd0">
-            <div class="fondo2">
-                <p class="texto_1">
-                    Presbicia
-                </p>
-                <p class="texto_2">
-                    La presbicia es la dificultad para enfocar objetos cercanos, nuestro oftalmólogo tiene más de 15 años de experiencia tratando este padecimiento.
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- h_sec6 -->
-    <div class="h_sec6">
-        <div class="container">
-            <div class="col-sm-12" id="optica">
-                <div class="col-md-5 col-sm-6">
-                    <p class="optima">Óptica</p>
-                    <p>Contamos con óptica avanzada, con las mejores opciones para tu ojos.</p>
-                    <ul>
-                        <li>Lentes progresivos: Varilux Series</li>
-                        <li>Lentes bifocales: Varilux </li>
-                        <li>Lentes protección para tus ojos: Crizal Prevencia UV</li>
-                        <li>Lentes para conducción: Drive Safe</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- h_sec7 -->
-    <div class="h_sec7">
-        <div class="container">
-            <div class="col-sm-12">
-                <p class="titulo">La calidad en la atención y honestidad son nuestro compromiso</p>
-                <p class="subtitulo">
-                    El servicio de nuestro oftalmólogo en Monterrey mantiene altos estándares de calidad en la selección de pacientes, evaluación de estudios y elección de las técnicas de cirugía, asegurando que sean adecuadas para cada paciente. 
-                </p>
-            </div>
-        </div>
-    </div>
+    
     
     <!----------------------->
     <div class="testimoniales">
@@ -300,6 +228,79 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+    <!-- h_sec4 -->
+    <div class="h_sec4" id="lasik">
+        <div class="container">
+            <p class="titulo">
+                Conoce los servicios y procedimientos que nuestro<br> oftalmólogo en Monterrey te ofrece
+            </p>
+            <div class="col-sm-4 espaciados_img" id="cataratas">
+                <img src="assets/img/img1.jpg" class="img-responsive">
+                <p class="sub_titulo">Cirugía Lasik</p>
+                <p class="parrafo_uno">
+                    Con esta cirugía láser, el oftalmólogo corrige la miopía, la hipermetropía y el astigmatismo, ayudando a prescindir de los lentes para realizar las actividades diarias.
+                </p>
+            </div>
+            <div class="col-sm-4 espaciados_img">
+                <img src="assets/img/img2.jpg" class="img-responsive">
+                <p class="sub_titulo">Cataratas</p>
+                <p class="parrafo_uno">
+                    Mediante la cirugía de cataratas, nuestro oftalmólogo reemplaza el cristalino natural afectado por un cristalino artificial transparente, llamado lente intraocular.
+                </p>
+            </div>
+            <div class="col-sm-4 espaciados_img" id="queratocono">
+                <img src="assets/img/queratocono.gif" class="img-responsive">
+                <p class="sub_titulo">Queratocono</p>
+                <p class="parrafo_uno">
+                    El crosslinking es uno de los tratamientos más eficaces para el queratocono, el cual, si no es atendido, provoca que la córnea se adelgace y sobresalga como un cono, haciendo que los rayos de luz se desenfoquen y la visión sea borrosa y distorsionada.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- h_sec5 -->
+    <div class="h_sec5" id="presbicia">
+        <div class="col-sm-6 pd0">
+            <div class="fondo1"></div>
+        </div>
+        <div class="col-sm-6 pd0">
+            <div class="fondo2">
+                <p class="texto_1">
+                    Presbicia
+                </p>
+                <p class="texto_2">
+                    La presbicia es la dificultad para enfocar objetos cercanos, nuestro oftalmólogo tiene más de 15 años de experiencia tratando este padecimiento.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- h_sec6 -->
+    <div class="h_sec6">
+        <div class="container">
+            <div class="col-sm-12" id="optica">
+                <div class="col-md-5 col-sm-6">
+                    <p class="optima">Óptica</p>
+                    <p>Contamos con óptica avanzada, con las mejores opciones para tu ojos.</p>
+                    <ul>
+                        <li>Lentes progresivos: Varilux Series</li>
+                        <li>Lentes bifocales: Varilux </li>
+                        <li>Lentes protección para tus ojos: Crizal Prevencia UV</li>
+                        <li>Lentes para conducción: Drive Safe</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- h_sec7 -->
+    <div class="h_sec7">
+        <div class="container">
+            <div class="col-sm-12">
+                <p class="titulo">La calidad en la atención y honestidad son nuestro compromiso</p>
+                <p class="subtitulo">
+                    El servicio de nuestro oftalmólogo en Monterrey mantiene altos estándares de calidad en la selección de pacientes, evaluación de estudios y elección de las técnicas de cirugía, asegurando que sean adecuadas para cada paciente. 
+                </p>
             </div>
         </div>
     </div>
