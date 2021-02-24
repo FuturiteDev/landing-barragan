@@ -233,6 +233,11 @@ header {
   background-size: cover;
   width: 100%;
   height: 450px; }
+  .h_sec9 .titulo_direccionesUn {
+    color: var(--blanco);
+    font-weight: 700;
+    font-size: 25px;
+    padding-top: 100px; }
   .h_sec9 .titulo {
     color: var(--blanco);
     font-weight: 800;

@@ -184,79 +184,6 @@
             </div>
         </div>
     </div>
-    <!----------------------->
-    <div class="testimoniales">
-        <div class="container">
-            <div class="col-sm-12">
-                <p class="testimoniales_titulo">Testimoniales</p>
-            </div>
-            <div class="col-sm-12">
-                <div class="slider-cliente">
-                    <div class="thumbnail">
-                        <div class="div_testimonios">
-                            <p class="nombre_testimonio">J.M. García</p>
-                            <p><img src="assets/img/estrellas.png" class=""></p>
-                            <p class="parrafo_testimonio">
-                                "Estoy muy agradecido con el Dr. Enrique Barragán, el doctor es todo un profesional como también una excelente persona. Consulté en 4 lugares diferentes y me decidí con el doctor por su trato amable y cálido. Su explicación sobre los estudios que realizó me dio más tranquilidad para proceder con la cirugía. Por otro lado, el periodo de recuperación ha sido muy rápido siguiendo sus recomendaciones."
-                            </p>
-                        </div>
-                    </div>
-                    <div class="thumbnail">
-                        <div class="div_testimonios">
-                            <p class="nombre_testimonio">G. Paredes</p>
-                            <img src="assets/img/estrellas.png" class="img-responsive">
-                            <p class="parrafo_testimonio">
-                                "Además de su preparación/ experiencia, el instrumento de trabajo fue básico para elegir al doctor.  El Dr. Barragán tiene un láser muy actualizado y esto te da garantía del resultado. El proceso de evaluación también ayuda para darte la confianza"
-                            </p>
-                        </div>
-                    </div>
-
-
-                    <div class="thumbnail">
-                        <div class="div_testimonios">
-                            <p class="nombre_testimonio">M. L. Aguillón</p>
-                            <img src="assets/img/estrellas.png" class="img-responsive">
-                            <p class="parrafo_testimonio">
-                                "​Me fui muy contenta por todo el servicio del personal. Decidí elegirlo por el modo como trata a los pacientes, es muy sensible, es un muy buen médico. Tiene excelente atención"
-                            </p>
-                        </div>
-                    </div>
-
-
-                    <div class="thumbnail">
-                        <div class="div_testimonios">
-                            <p class="nombre_testimonio">E. Treviño</p>
-                            <img src="assets/img/estrellas.png" class="img-responsive">
-                            <p class="parrafo_testimonio">
-                                "​La experiencia fue satisfactoria por la información que te da y eso transmite confianza. Su imagen, su consultorio, la experiencia, el equipo que tiene, el tiempo que te dedica, no te apura, te explica a detalle."
-                            </p>
-                        </div>
-                    </div>
-
-
-                    <div class="thumbnail">
-                        <div class="div_testimonios">
-                            <p class="nombre_testimonio">M. Cavazos</p>
-                            <img src="assets/img/estrellas.png" class="img-responsive">
-                            <p class="parrafo_testimonio">
-                                "​Después de consultar con 5 oftalmólogos distintos por mi caso de Queratocono, encontré el doctor que busca lo mejor para el paciente, es muy sincero y profesional, SÚPER recomendado."
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="thumbnail">
-                        <div class="div_testimonios">
-                            <p class="nombre_testimonio">R. Arroyo</p>
-                            <img src="assets/img/estrellas.png" class="img-responsive">
-                            <p class="parrafo_testimonio">
-                                "​Soy paciente del Dr. Barragán desde hace 2 años y su servicio siempre ha sido excelente, se toma el tiempo necesario para aclarar dudas y explicar a detalle el proceso. Yo llegué con la idea de que requería un trasplante de córneas debido al Queratocono, pero el Dr. me evaluó y me ofreció un tratamiento de Crosslinking y lentes de contacto esclerales. En combinación de ambos: recuperé más del 90% de mi visión, los lentes de contacto son increíblemente cómodos y evité un carísimo trasplante."
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- h_sec5 -->
     <div class="h_sec5" id="presbicia">
         <div class="col-sm-6 pd0">
@@ -301,6 +228,81 @@
             </div>
         </div>
     </div>
+    
+    <!----------------------->
+    <div class="testimoniales">
+        <div class="container">
+            <div class="col-sm-12">
+                <p class="testimoniales_titulo">Testimoniales</p>
+            </div>
+            <div class="col-sm-12">
+                <div class="slider-cliente">
+                    <div class="thumbnail">
+                        <div class="div_testimonios">
+                            <p class="nombre_testimonio">Lizeth Gutiérrez</p>
+                            <p><img src="assets/img/estrellas.png" class=""></p>
+                            <p class="parrafo_testimonio">
+                                “Excelente servicio, el doctor es muy profesional en su trabajo, me gustó mucho que nos explico detalle por detalle el antes y el después del procedimiento. Mi esposo se hizo la Lasik. Les recomiendo mucho al Dr. Barragán. Nosotros viajamos desde el Valle de Texas a consultar con él. Altamente recomendado.”
+                            </p>
+                        </div>
+                    </div>
+                    <div class="thumbnail">
+                        <div class="div_testimonios">
+                            <p class="nombre_testimonio">María Fernanda C.</p>
+                            <img src="assets/img/estrellas.png" class="img-responsive">
+                            <p class="parrafo_testimonio">
+                                “Excelentísimo doctor , fuimos por una operación de láser y se tomó el tiempo necesario  para explicar los pro y contra de la decisión que tomaríamos , además de revisar otras cosas en el ojo y recomendarnos lo mejor . Un ser humano muy ético y profesional. Lo Recomiendo al 100%.”
+
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="thumbnail">
+                        <div class="div_testimonios">
+                            <p class="nombre_testimonio">Ricardo Tamez</p>
+                            <img src="assets/img/estrellas.png" class="img-responsive">
+                            <p class="parrafo_testimonio">
+                                “Excelente atención del Dr. Barragán. Explica a detalle y te ofrece toda la información. Lo recomiendo.”
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="thumbnail">
+                        <div class="div_testimonios">
+                            <p class="nombre_testimonio">Pao Martínez</p>
+                            <img src="assets/img/estrellas.png" class="img-responsive">
+                            <p class="parrafo_testimonio">
+                                “Excelente doctor, muy atento, y profesional. Atiende todas tus dudas, sin importar cuáles sean. Es muy claro en la explicación de los procedimientos y te da todos los pros y contras que pudieran surgir en lo que sea que necesites. A mí me encantó que me explicó a mi esposo y a mí desde lo más básico que creíamos saber, sin embargo, hubo cosas que nos dijo y nosotros desconocíamos. Yo me hice la cirugía LASIK y estoy totalmente satisfecha con el procedimiento, lo recomiendo ampliamente, sin duda se quedará como el oftalmólogo de cabecera de la familia!”
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="thumbnail">
+                        <div class="div_testimonios">
+                            <p class="nombre_testimonio">Gabriela de la Garza</p>
+                            <img src="assets/img/estrellas.png" class="img-responsive">
+                            <p class="parrafo_testimonio">
+                                “Excelente médico, muy profesional, preparado, y atento. Nos atendió incluso en domingo por una emergencia. Estamos muy satisfechos con su labor, totalmente recomendable.”
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="thumbnail">
+                        <div class="div_testimonios">
+                            <p class="nombre_testimonio">Karen Sandoval</p>
+                            <img src="assets/img/estrellas.png" class="img-responsive">
+                            <p class="parrafo_testimonio">
+                                “Súper recomendado, me operé con él y me fue excelente en la cirugía casi no hubo ninguna molesta y veo mejor que nunca. El doctor se preocupa por dar un buen trato, definitivamente lo recomiendo.”
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- h_sec8 -->
     <div class="h_sec8">
         <div class="container">
@@ -312,7 +314,12 @@
     <!-- h_sec9 -->
     <div class="h_sec9">
         <div class="container">
-            <div class="col-md-6 col-sm-9">
+            <div class="col-md-6 col-sm-6">
+                <p class="titulo_direccionesUn">
+                    Hidalgo 2040, PB Consultorio 9, Col. Obispado en Monterrey.
+                </p>
+            </div>
+            <div class="col-md-6 col-sm-6">
                 <p class="titulo">¡Programa tu cita ahora!</p>
                 <form>
                     <div class="col-sm-12 bttom">
