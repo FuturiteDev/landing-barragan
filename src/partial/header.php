@@ -1,7 +1,19 @@
 <header>
 	<div class="container">
 		<div class="col-sm-6 col-xs-8">
-			<img src="assets/img/logo-barragan.png" class="img-responsive">
+			<img src="assets/img/logo-barragan.png" class="img-responsive logo">
+			<div class="tels visible-xs">
+				<a href="tel:8113650303" class="datos" onclick="gtag('event','Click Botón',{'event_category':'Seguimiento de llamadas','event_label':'Teléfono Cabecera 2'});">81-1365-0303</a><br>
+				<a href="tel:8181232474" class="datos" onclick="gtag('event','Click Botón',{'event_category':'Seguimiento de llamadas','event_label':'Teléfono Cabecera 2'});">81-8123-2474</a>
+			</div>
+		</div>
+		<div class="col-sm-6 col-xs-12 hidden-xs">
+			<p style="text-align: right;padding-top: 30px;color: white;font-weight: bold;">Consultorio:</p>
+			<p style="text-align: right;color: white;font-weight: bold;">81-1365-0303</p>
+			<p style="text-align: right;color: white;font-weight: bold;">81-8123-2474</p>
+			<!--<a href="tel:8113650303" class="datos">81-1365-0303</a><br>
+			<a href="tel:8181232474" class="datos">81-8123-2474</a><br>-->
+			<p style="  text-align: right;padding-top: 10px;color: red;font-weight: bold;">Urgencias: 8126601641</p>
 		</div>
 		<div class="col-sm-6 col-xs-4 visible-xs" style="text-align: right;">
 			<a class="visible-xs" href="tel:8126601641" onclick="gtag('event','Click Botón',{'event_category':'Seguimiento de llamadas','event_label':'Teléfono Cabecera 1'});">
