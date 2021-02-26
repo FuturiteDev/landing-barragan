@@ -166,7 +166,7 @@ header {
     text-align: center; }
 
 .h_sec4 {
-  padding: 30px 0px 30px; }
+  padding: 50px 0px 50px; }
   .h_sec4 .titulo {
     padding-top: 50px;
     padding-bottom: 40px;
@@ -181,6 +181,19 @@ header {
   .h_sec4 .parrafo_uno {
     text-align: center;
     font-size: 16px; }
+  .h_sec4 .btn-servicios a {
+    text-decoration: none;
+    margin: auto;
+    display: block;
+    background: var(--verde);
+    border: none;
+    padding: 5px 0px;
+    width: 30%;
+    color: var(--blanco);
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 50px; }
 
 .h_sec5 {
   height: 350px; }
@@ -244,13 +257,25 @@ header {
   width: 100%;
   min-height: 450px;
   height: auto; }
+  .h_sec9 .consultorio {
+    color: var(--blanco);
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 25px;
+    margin-top: 50px;
+    text-align: center; }
+    .h_sec9 .consultorio .tel-cons {
+      color: var(--blanco);
+      font-weight: 400;
+      letter-spacing: 1px;
+      font-size: 25px; }
   .h_sec9 .titulo_direccionesUn {
     color: var(--blanco);
     font-weight: 800;
     letter-spacing: 1px;
     font-size: 25px;
-    padding-bottom: 20px;
-    margin-top: 120px; }
+    margin-top: 30px;
+    text-align: center; }
   .h_sec9 .titulo {
     color: var(--blanco);
     font-weight: 800;
@@ -344,6 +369,8 @@ footer {
       padding-top: 50px; }
   .h_sec2 img {
     margin-top: 20px; }
+  .h-sec4 .btn-servicios a {
+    width: 50%; }
   .h_sec5 .fondo2 {
     padding: 80px 50px 20px;
     height: 350px;
@@ -368,17 +395,19 @@ footer {
   .h_sec3 p {
     font-size: 20px;
     font-weight: 600; }
+  .h_sec4 .parrafo_uno {
+    font-size: 15px; }
+  .h_sec4 .sub_titulo {
+    padding-top: 20px;
+    font-size: 18px; }
   .h_sec4 .titulo {
     padding-top: 0px;
     padding-bottom: 40px;
     font-weight: 800;
     font-size: 20px;
     text-align: center; }
-  .h_sec4 .sub_titulo {
-    padding-top: 20px;
-    font-size: 18px; }
-  .h_sec4 .parrafo_uno {
-    font-size: 15px; }
+  .h_sec4 .btn-servicios a {
+    width: 70%; }
   .espaciados_img {
     height: 430px; }
   .h_sec5 .fondo1 {
@@ -416,8 +445,11 @@ footer {
     background-position: right top;
     min-height: 550px;
     height: auto; }
+    .h_sec9 .consultorio {
+      margin: 20px 0px; }
     .h_sec9 .titulo_direccionesUn {
-      margin-top: 0px; } }
+      margin-top: 0px;
+      margin-bottom: 30px; } }
 
 @media (max-width: 479px) and (min-width: 0px) {
   header {
@@ -477,6 +509,8 @@ footer {
     font-size: 18px; }
   .h_sec4 .parrafo_uno {
     font-size: 15px; }
+  .h_sec4 .btn-servicios a {
+    width: 100%; }
   .espaciados_img {
     height: 430px; }
   .h_sec5 .fondo1 {
@@ -514,8 +548,11 @@ footer {
     background-position: right top;
     min-height: 550px;
     height: auto; }
+    .h_sec9 .consultorio {
+      margin: 20px 0px; }
     .h_sec9 .titulo_direccionesUn {
-      margin-top: 0px; }
+      margin-top: 0px;
+      margin-bottom: 30px; }
   footer {
     padding: 20px 10px 10px; } }
 

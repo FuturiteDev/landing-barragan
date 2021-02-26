@@ -51,7 +51,7 @@
 <div class="preloader"></div>
 
 <!-- Modal -->
-    <div class="covid19">
+    <!--<div class="covid19">
         <div class="modal fade" id="popUp" role="dialog">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
@@ -62,7 +62,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
 
 <!-- All page content goes inside this div -->
 <div id="pageContent" class="main-wrapper">
@@ -258,10 +258,14 @@
                     El crosslinking es uno de los tratamientos más eficaces para el queratocono, el cual, si no es atendido, provoca que la córnea se adelgace y sobresalga como un cono, haciendo que los rayos de luz se desenfoquen y la visión sea borrosa y distorsionada.
                 </p>
             </div>
+
+            <div class="col-sm-12 col-xs-12 btn-servicios">
+                <a href="#contacto">Quiero más información</a>
+            </div>
         </div>
     </div>
     <!-- h_sec5 -->
-    <div class="h_sec5" id="presbicia">
+    <!--<div class="h_sec5" id="presbicia">
         <div class="col-sm-6 pd0">
             <div class="fondo1"></div>
         </div>
@@ -275,7 +279,7 @@
                 </p>
             </div>
         </div>
-    </div>
+    </div>-->
     <!-- h_sec6 -->
     <div class="h_sec6">
         <div class="container">
@@ -316,11 +320,16 @@
     <div class="h_sec9">
         <div class="container">
             <div class="col-md-6 col-sm-6">
+                <div class="consultorio">
+                    Consultorio:<br>
+                    <a href="tel:8113650303" onclick="gtag('event','Click Botón',{'event_category':'Seguimiento de llamadas','event_label':'Teléfono Cabecera 2'});" class="tel-cons">81-1365-0303</a><br>
+                    <a href="tel:8181232474" onclick="gtag('event','Click Botón',{'event_category':'Seguimiento de llamadas','event_label':'Teléfono Cabecera 2'});" class="tel-cons">81-8123-2474</a>
+                </div>
                 <p class="titulo_direccionesUn">
                     Hidalgo 2040, PB Consultorio 9, Col. Obispado en Monterrey.
                 </p>
             </div>
-            <div class="col-md-6 col-sm-6">
+            <div class="col-md-6 col-sm-6" id="contacto">
                 <p class="titulo">¡Programa tu cita ahora!</p>
                 <form>
                     <div class="col-sm-12 bttom">

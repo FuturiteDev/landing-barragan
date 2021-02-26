@@ -11,8 +11,6 @@
 			<p style="text-align: right;padding-top: 30px;color: white;font-weight: bold;">Consultorio:</p>
 			<p style="text-align: right;color: white;font-weight: bold;">81-1365-0303</p>
 			<p style="text-align: right;color: white;font-weight: bold;">81-8123-2474</p>
-			<!--<a href="tel:8113650303" class="datos">81-1365-0303</a><br>
-			<a href="tel:8181232474" class="datos">81-8123-2474</a><br>-->
 			<p style="  text-align: right;padding-top: 10px;color: red;font-weight: bold;">Urgencias: 8126601641</p>
 		</div>
 		<div class="col-sm-6 col-xs-4 visible-xs" style="text-align: right;">
