@@ -349,6 +349,10 @@
                     </div>
                 </form>
             </div>
+
+            <div class="leyenda">
+                Nuestras instalaciones y personal están preparados para garantizarte una visita segura, implementando todas las medidas de higiene.
+            </div>
         </div>
     </div>
   

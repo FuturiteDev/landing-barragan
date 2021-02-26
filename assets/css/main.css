@@ -301,9 +301,15 @@ header {
     padding: 10px;
     background: var(--verde);
     font-weight: 700;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    margin-bottom: 30px; }
   .h_sec9 .bttom {
     padding-bottom: 15px; }
+  .h_sec9 .leyenda {
+    text-align: center;
+    color: var(--blanco);
+    font-size: 14px;
+    display: block; }
 
 footer {
   background: var(--fondo_footer);

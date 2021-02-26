@@ -347,23 +347,30 @@ header{
  		background: var(--verde);
  		font-weight: 700;
 	    letter-spacing: 1px;
+	    margin-bottom: 30px;
  	}
  	.bttom{
  		padding-bottom: 15px;
+ 	}
+ 	.leyenda {
+ 		text-align: center;
+ 		color: var(--blanco);
+ 		font-size: 14px;
+ 		display: block;
  	}
 }
 footer{
 	background: var(--fondo_footer);
 	padding: 20px 0px 10px;
 	color: var(--texto_footer); 
-	p{
+	p {
 		text-align: center;
 		font-size: 14px;
 	}
-	a{
+	a {
 		color: var(--texto_footer); 
 	}
-	a:hover{
+	a:hover {
 		color: var(--texto_footer); 
 	}
 }
