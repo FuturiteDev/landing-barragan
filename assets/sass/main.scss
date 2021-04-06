@@ -1,3 +1,4 @@
+
 :root {
     --verde: #34cf7f;
     --azul_purpura: #3c3b63;
@@ -20,8 +21,21 @@ html, body {
 }
 header{
 	width: 100%;
-	height: 100px;
+	min-height: 100px;
+	height: auto;
 	position: absolute;
+	.logo {
+		margin-top: 20px;
+	}
+	.tels {
+		padding: 10px 0px;
+		.datos {
+			text-align: left;
+			color: white;
+			font-weight: bold;
+			float: left;
+		}
+	}	
 }
 .pd0{padding: 0;}
 .testimoniales{
@@ -95,6 +109,10 @@ header{
 		.parrafo_testimonio{
 			font-size: 13px;
     		padding-top: 12px;
+		}
+		.tipo_de_testimonio{
+			font-weight: 700;
+		    font-size: 15px;
 		}
 	}
 }
@@ -178,7 +196,7 @@ header{
 	}
 }
 .h_sec4{
-	padding: 30px 0px 30px;
+	padding: 50px 0px 50px;
 	.titulo{
 		padding-top: 50px;
 		padding-bottom: 40px;
@@ -196,6 +214,20 @@ header{
 		text-align: center;
 		font-size: 16px;
 	}
+	.btn-servicios a {
+		text-decoration: none;
+		margin: auto;
+		display: block;
+		background: var(--verde);
+		border: none;
+		padding: 5px 0px;
+		width: 30%;
+		color: var(--blanco);
+		font-size: 20px;
+		font-weight: 800;
+		text-align: center;
+		margin-top: 50px;
+	}
 }
 .h_sec5{
 	height: 350px;
@@ -204,18 +236,18 @@ header{
 		height: 350px;
 		background-position: center;
 	}
-	.fondo2{
+	.fondo2 {
 		padding: 80px 180px 20px;
 		height: 350px;
 		background: var(--azul_purpura);
-		.texto_1{
+		.texto_1 {
 			font-weight: 800;
 			text-align: right;
 			color: var(--blanco);
 			letter-spacing: 1px;
 			font-size: 30px;
 		}
-		.texto_2{
+		.texto_2 {
 			text-align: right;
 			color: var(--blanco);
 		}
@@ -266,7 +298,34 @@ header{
     background-position: center top;
     background-size: cover;
     width: 100%;
-    height: 450px;
+    min-height: 450px;
+    height: auto;
+    .map{
+    	width: 100%;
+    	height: 400px;
+    }
+    .consultorio {
+    	color: var(--blanco);
+    	font-weight: 800;
+    	letter-spacing: 1px;
+    	font-size: 25px;
+    	margin-top: 50px;
+    	text-align: center;
+    	.tel-cons {
+    		color: var(--blanco);
+	    	font-weight: 400;
+	    	letter-spacing: 1px;
+	    	font-size: 25px;
+    	}
+    }
+    .titulo_direccionesUn {
+    	color: var(--blanco);
+    	font-weight: 800;
+    	letter-spacing: 1px;
+    	font-size: 25px;
+    	margin-top: 30px;
+    	text-align: center;
+    }
     .titulo{
     	color: var(--blanco);
     	font-weight: 800;
@@ -296,23 +355,30 @@ header{
  		background: var(--verde);
  		font-weight: 700;
 	    letter-spacing: 1px;
+	    margin-bottom: 30px;
  	}
  	.bttom{
  		padding-bottom: 15px;
+ 	}
+ 	.leyenda {
+ 		text-align: center;
+ 		color: var(--blanco);
+ 		font-size: 14px;
+ 		display: block;
  	}
 }
 footer{
 	background: var(--fondo_footer);
 	padding: 20px 0px 10px;
 	color: var(--texto_footer); 
-	p{
+	p {
 		text-align: center;
 		font-size: 14px;
 	}
-	a{
+	a {
 		color: var(--texto_footer); 
 	}
-	a:hover{
+	a:hover {
 		color: var(--texto_footer); 
 	}
 }
@@ -380,6 +446,11 @@ footer{
 	.h_sec2 img {
 	    margin-top: 20px;
 	}
+	.h-sec4 {
+		.btn-servicios a {
+			width: 50%;
+		}
+	}
 	.h_sec5 .fondo2 {
 	    padding: 80px 50px 20px;
 	    height: 350px;
@@ -410,20 +481,25 @@ footer{
 	    font-size: 20px;
 	    font-weight: 600;
 	}
-	.h_sec4 .titulo {
-	    padding-top: 0px;
-	    padding-bottom: 40px;
-	    font-weight: 800;
-	    font-size: 20px;
-	    text-align: center;
-	}
-	.h_sec4 .sub_titulo {
-	    padding-top: 20px;
-	    font-size: 18px;
-	}
-	.h_sec4 .parrafo_uno {
-	    font-size: 15px;
-	}
+	.h_sec4 {
+		.parrafo_uno {
+		    font-size: 15px;
+		}
+		.sub_titulo {
+		    padding-top: 20px;
+		    font-size: 18px;
+		}
+		.titulo {
+		    padding-top: 0px;
+		    padding-bottom: 40px;
+		    font-weight: 800;
+		    font-size: 20px;
+		    text-align: center;
+		}
+		.btn-servicios a {
+			width: 70%;
+		}
+	}	
 	.espaciados_img{
 		height: 430px;
 	}
@@ -470,10 +546,40 @@ footer{
 	.h_sec9 {
 	    padding: 50px 0px 50px;
 	    background-position: right top;
-	    height: 550px;
+	    min-height: 550px;
+	    height: auto;
+	    .consultorio {
+	    	margin: 20px 0px;
+	    }
+	    .titulo_direccionesUn {
+	    	margin-top: 0px;
+	    	margin-bottom: 30px;
+	    }
 	}
 }
 @media (max-width: 479px) and (min-width: 0px) {
+  	header {
+    	width: 100%;
+     	min-height: 100px;
+     	height: auto;
+       	position: relative;
+      	background: #3c3b63;
+      	padding-bottom: 20px;
+      	.telephoneHeader {
+      		margin-top: 20px;
+      		max-width: 80%;
+      	}
+  	}
+  	.h_sec1 {
+  		min-height: 600px;
+  		height: auto;
+  		padding: 20px 0px;
+  		.textoNe {
+      		color: var(--blanco);
+      		padding-top: 0px;
+  		}
+  	}	
+
 	.h_sec1 .titulo1 {
 	    font-size: 25px;
 	    line-height: 30px;
@@ -511,19 +617,24 @@ footer{
 	    font-size: 20px;
 	    font-weight: 600;
 	}
-	.h_sec4 .titulo {
-	    padding-top: 0px;
-	    padding-bottom: 40px;
-	    font-weight: 800;
-	    font-size: 20px;
-	    text-align: center;
-	}
-	.h_sec4 .sub_titulo {
-	    padding-top: 20px;
-	    font-size: 18px;
-	}
-	.h_sec4 .parrafo_uno {
-	    font-size: 15px;
+	.h_sec4 {
+		.titulo {
+		    padding-top: 0px;
+		    padding-bottom: 40px;
+		    font-weight: 800;
+		    font-size: 20px;
+		    text-align: center;
+		}    
+		.sub_titulo {
+		    padding-top: 20px;
+		    font-size: 18px;
+		}
+		.parrafo_uno {
+		    font-size: 15px;
+		}
+		.btn-servicios a {
+			width: 100%;
+		}
 	}
 	.espaciados_img{
 		height: 430px;
@@ -571,7 +682,18 @@ footer{
 	.h_sec9 {
 	    padding: 50px 0px 50px;
 	    background-position: right top;
-	    height: 550px;
+	    min-height: 550px;
+	    height: auto;
+	    .consultorio {
+	    	margin: 20px 0px;
+	    }
+	    .titulo_direccionesUn {
+	    	margin-top: 0px;
+	    	margin-bottom: 30px;
+	    }
+	}
+	footer {
+	    padding: 20px 10px 10px;
 	}
 }
 

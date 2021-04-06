@@ -34,6 +34,9 @@
     <link href="assets/css/main.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 
+
+
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -155,6 +158,102 @@
             </p>
         </div>
     </div>
+    
+    
+    <!-----------------<p class="tipo_de_testimonio">Consulta</p>------>
+    <div class="testimoniales">
+        <div class="container">
+            <div class="col-sm-12">
+                <p class="testimoniales_titulo">Testimoniales</p>
+            </div>
+            <div class="col-sm-12">
+                <div class="slider-cliente">
+
+
+                    <div class="thumbnail">
+                        <div class="div_testimonios">
+                            <p class="nombre_testimonio">Gabriela</p>
+                            <img src="assets/img/estrellas.png" class="img-responsive">
+                            <p class="tipo_de_testimonio">CONSULTA</p>
+                            <p class="parrafo_testimonio">
+                                “Excelente médico, muy profesional, preparado, y atento. Nos atendió incluso en domingo por una emergencia. Estamos muy satisfechos con su labor, totalmente recomendable.”
+                            </p>
+                        </div>
+                    </div>
+                    <div class="thumbnail">
+                        <div class="div_testimonios">
+                            <p class="nombre_testimonio">DAYNA</p>
+                            <p><img src="assets/img/estrellas.png" class=""></p>
+                            <p class="tipo_de_testimonio">CONSULTA</p>
+                            <p class="parrafo_testimonio">
+                                “Definitivamente estoy muy contenta por el excelente trato, trabajo y atención, me dio toda la confianza del mundo para realizarme mi operación, muchas gracias por su amabilidad y atención”.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="thumbnail">
+                        <div class="div_testimonios">
+                            <p class="nombre_testimonio">VALERIA</p>
+                            <p><img src="assets/img/estrellas.png" class=""></p>
+                            <p class="tipo_de_testimonio">CIRUGÍA LASIK</p>
+                            <p class="parrafo_testimonio">
+                                “Excelente trato por parte del Doctor, el antes, durante y después de su cirugía de ojos fue muy bien, te explica muy bien todo el proceso y cuenta con una buena ética profesional, su diagnósticos preoperatorios son muy buenos y acertados”.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="thumbnail">
+                        <div class="div_testimonios">
+                            <p class="nombre_testimonio">BERENICE</p>
+                            <p><img src="assets/img/estrellas.png" class=""></p>
+                            <p class="tipo_de_testimonio">CIRUGÍA LASIK</p>
+                            <p class="parrafo_testimonio">
+                                “Excelente trato y atención. Es muy prudente con sus recomendaciones. Las instalaciones son de muy buena calidad y accesibles, especialmente para adultos mayores. Los resultados de la cirugía Lasik fueron excelentes”.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="thumbnail">
+                        <div class="div_testimonios">
+                            <p class="nombre_testimonio">KAREN</p>
+                            <p><img src="assets/img/estrellas.png" class=""></p>
+                            <p class="tipo_de_testimonio">CIRUGÍA LASIK</p>
+                            <p class="parrafo_testimonio">
+                                “¡Súper recomendado! Yo me operé con él y me atendió muy bien y no sentí nada durante ni después de la cirugía. Súper atento y amable, te explica todo y se preocupa por dar un buen servicio”.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="thumbnail">
+                        <div class="div_testimonios">
+                            <p class="nombre_testimonio">MARIEL</p>
+                            <p><img src="assets/img/estrellas.png" class=""></p>
+                            <p class="tipo_de_testimonio">QUERATOCONO, COSSLINKING</p>
+                            <p class="parrafo_testimonio">
+                                “Después de consultar con 5 oftalmólogos distintos por mi caso de Queratocono, encontré al doctor, que busca lo mejor para el paciente, es muy sincero y profesional, SÚPER recomendado”.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="thumbnail">
+                        <div class="div_testimonios">
+                            <p class="nombre_testimonio">ABRAHAM</p>
+                            <p><img src="assets/img/estrellas.png" class=""></p>
+                            <p class="tipo_de_testimonio">QUERATOCONO</p>
+                            <p class="parrafo_testimonio">
+                                “Las consultas con él son bastante buenas, yo sufro de Queratocono y se tomó su tiempo para informarme todo acerca de la enfermedad y la operación ni se diga, buenísima. 100% recomendado”. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="thumbnail">
+                        <div class="div_testimonios">
+                            <p class="nombre_testimonio">JUAN MANUEL</p>
+                            <p><img src="assets/img/estrellas.png" class=""></p>
+                            <p class="tipo_de_testimonio">CIRUGÍA LASIK</p>
+                            <p class="parrafo_testimonio">
+                                “Estoy muy agradecido con el Dr. Enrique Barragán, el doctor es todo un profesional, y también una excelente persona. Consulté en 4 lugares diferentes y me decidí por el doctor por su trato amable y cálido. Su explicación sobre los estudios que realizó me dio más tranquilidad para proceder con la cirugía. Por otro lado, el periodo de recuperación ha sido muy rápido siguiendo sus recomendaciones”.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- h_sec4 -->
     <div class="h_sec4" id="lasik">
         <div class="container">
@@ -182,83 +281,14 @@
                     El crosslinking es uno de los tratamientos más eficaces para el queratocono, el cual, si no es atendido, provoca que la córnea se adelgace y sobresalga como un cono, haciendo que los rayos de luz se desenfoquen y la visión sea borrosa y distorsionada.
                 </p>
             </div>
-        </div>
-    </div>
-    <!----------------------->
-    <div class="testimoniales">
-        <div class="container">
-            <div class="col-sm-12">
-                <p class="testimoniales_titulo">Testimoniales</p>
-            </div>
-            <div class="col-sm-12">
-                <div class="slider-cliente">
-                    <div class="thumbnail">
-                        <div class="div_testimonios">
-                            <p class="nombre_testimonio">J.M. García</p>
-                            <p><img src="assets/img/estrellas.png" class=""></p>
-                            <p class="parrafo_testimonio">
-                                "Estoy muy agradecido con el Dr. Enrique Barragán, el doctor es todo un profesional como también una excelente persona. Consulté en 4 lugares diferentes y me decidí con el doctor por su trato amable y cálido. Su explicación sobre los estudios que realizó me dio más tranquilidad para proceder con la cirugía. Por otro lado, el periodo de recuperación ha sido muy rápido siguiendo sus recomendaciones."
-                            </p>
-                        </div>
-                    </div>
-                    <div class="thumbnail">
-                        <div class="div_testimonios">
-                            <p class="nombre_testimonio">G. Paredes</p>
-                            <img src="assets/img/estrellas.png" class="img-responsive">
-                            <p class="parrafo_testimonio">
-                                "Además de su preparación/ experiencia, el instrumento de trabajo fue básico para elegir al doctor.  El Dr. Barragán tiene un láser muy actualizado y esto te da garantía del resultado. El proceso de evaluación también ayuda para darte la confianza"
-                            </p>
-                        </div>
-                    </div>
 
-
-                    <div class="thumbnail">
-                        <div class="div_testimonios">
-                            <p class="nombre_testimonio">M. L. Aguillón</p>
-                            <img src="assets/img/estrellas.png" class="img-responsive">
-                            <p class="parrafo_testimonio">
-                                "​Me fui muy contenta por todo el servicio del personal. Decidí elegirlo por el modo como trata a los pacientes, es muy sensible, es un muy buen médico. Tiene excelente atención"
-                            </p>
-                        </div>
-                    </div>
-
-
-                    <div class="thumbnail">
-                        <div class="div_testimonios">
-                            <p class="nombre_testimonio">E. Treviño</p>
-                            <img src="assets/img/estrellas.png" class="img-responsive">
-                            <p class="parrafo_testimonio">
-                                "​La experiencia fue satisfactoria por la información que te da y eso transmite confianza. Su imagen, su consultorio, la experiencia, el equipo que tiene, el tiempo que te dedica, no te apura, te explica a detalle."
-                            </p>
-                        </div>
-                    </div>
-
-
-                    <div class="thumbnail">
-                        <div class="div_testimonios">
-                            <p class="nombre_testimonio">M. Cavazos</p>
-                            <img src="assets/img/estrellas.png" class="img-responsive">
-                            <p class="parrafo_testimonio">
-                                "​Después de consultar con 5 oftalmólogos distintos por mi caso de Queratocono, encontré el doctor que busca lo mejor para el paciente, es muy sincero y profesional, SÚPER recomendado."
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="thumbnail">
-                        <div class="div_testimonios">
-                            <p class="nombre_testimonio">R. Arroyo</p>
-                            <img src="assets/img/estrellas.png" class="img-responsive">
-                            <p class="parrafo_testimonio">
-                                "​Soy paciente del Dr. Barragán desde hace 2 años y su servicio siempre ha sido excelente, se toma el tiempo necesario para aclarar dudas y explicar a detalle el proceso. Yo llegué con la idea de que requería un trasplante de córneas debido al Queratocono, pero el Dr. me evaluó y me ofreció un tratamiento de Crosslinking y lentes de contacto esclerales. En combinación de ambos: recuperé más del 90% de mi visión, los lentes de contacto son increíblemente cómodos y evité un carísimo trasplante."
-                            </p>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-sm-12 col-xs-12 btn-servicios">
+                <a href="#contacto">Quiero más información</a>
             </div>
         </div>
     </div>
     <!-- h_sec5 -->
-    <div class="h_sec5" id="presbicia">
+    <!--<div class="h_sec5" id="presbicia">
         <div class="col-sm-6 pd0">
             <div class="fondo1"></div>
         </div>
@@ -272,7 +302,7 @@
                 </p>
             </div>
         </div>
-    </div>
+    </div>-->
     <!-- h_sec6 -->
     <div class="h_sec6">
         <div class="container">
@@ -312,7 +342,22 @@
     <!-- h_sec9 -->
     <div class="h_sec9">
         <div class="container">
-            <div class="col-md-6 col-sm-9">
+            <div class="col-md-4 col-sm-4"> 
+                <div class="mapa-tamaño">
+                    <div id="map" class="map"></div> 
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="consultorio">
+                    Consultorio:<br>
+                    <a href="tel:8113650303" onclick="gtag('event','Click Botón',{'event_category':'Seguimiento de llamadas','event_label':'Teléfono Cabecera 2'});" class="tel-cons">81-1365-0303</a><br>
+                    <a href="tel:8181232474" onclick="gtag('event','Click Botón',{'event_category':'Seguimiento de llamadas','event_label':'Teléfono Cabecera 2'});" class="tel-cons">81-8123-2474</a>
+                </div>
+                <p class="titulo_direccionesUn">
+                    Hidalgo 2040, PB Consultorio 9, Col. Obispado en Monterrey.
+                </p>
+            </div>
+            <div class="col-md-4 col-sm-4" id="contacto">
                 <p class="titulo">¡Programa tu cita ahora!</p>
                 <form>
                     <div class="col-sm-12 bttom">
@@ -331,6 +376,10 @@
                         <button class="btonEnviar">ENVIAR</button>
                     </div>
                 </form>
+            </div>
+
+            <div class="leyenda">
+                Nuestras instalaciones y personal están preparados para garantizarte una visita segura, implementando todas las medidas de higiene.
             </div>
         </div>
     </div>
@@ -359,3 +408,23 @@
         $('#popUp').modal('show');
     });
 </script>
+    <script>
+      function initMap() {
+        var uluru = {
+            lat: 25.671179600611044, 
+            lng: -100.34379931801121
+        };
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNHj0fqYhnmqCGpJxIQzqJAmxxUXDxJS4&callback=initMap">
+    </script> 
