@@ -1,3 +1,11 @@
+<?php
+    $utm_id = !empty($_GET['utm_id']) ? $_GET['utm_id'] : "";
+    $utm_campaign = !empty($_GET['utm_campaign']) ? $_GET['utm_campaign'] : "";
+    $utm_source = !empty($_GET['utm_source']) ? $_GET['utm_source'] : "" ;
+    $utm_medium = !empty($_GET['utm_medium']) ? $_GET['utm_medium'] : ""; 
+    $utm_term = !empty($_GET['utm_term']) ? $_GET['utm_term'] : ""; 
+    $utm_content = !empty($_GET['utm_content']) ? $_GET['utm_content'] : "";
+?>
 <!DOCTYPE html>
 <html lang="es" ng-app="Futurite">
 <head>
@@ -47,6 +55,9 @@
 
     <!-- Analytics code -->
     <?php include_once('src/partial/seo/analytics.php'); ?>
+
+    <!-- RECAPTCHA V3 -->
+    <script src="https://www.google.com/recaptcha/api.js?render=6LfqplYcAAAAACr0Ga6LnKyX2SB1J4dguvdf-jgz"></script>
 </head>
 
 <body>
@@ -88,17 +99,23 @@
                 </p>
                 <form>
                     <div class="col-sm-12 bttom">
-                        <label>Nombre:</label> <input type="text" name="nombre">
+                        <label>Nombre:</label> <input type="text" name="nombre" required>
                     </div>
                     <div class="col-sm-12 bttom">
-                        <label>Teléfono:</label> <input type="text" name="telefono">
+                        <label>Teléfono:</label> <input type="tel" name="telefono" required>
                     </div>
                     <div class="col-sm-12 bttom">
-                        <label>Correo:</label> <input type="text" name="correo">
+                        <label>Correo:</label> <input type="email" name="correo" required>
                     </div>
                     <div class="col-sm-12 bttom">
-                        <label>Mensaje:</label> <input type="text" name="mensaje">
+                        <label>Mensaje:</label> <input type="text" name="mensaje" required>
                     </div>
+                    <input type="hidden" name="utm_id" value="<?php echo $utm_id; ?>">
+                    <input type="hidden" name="utm_content" value="<?php echo $utm_content; ?>">
+                    <input type="hidden" name="utm_term" value="<?php echo $utm_term; ?>">
+                    <input type="hidden" name="utm_medium" value="<?php echo $utm_medium; ?>">
+                    <input type="hidden" name="utm_source" value="<?php echo $utm_source; ?>">
+                    <input type="hidden" name="utm_campaign" value="<?php echo $utm_campaign; ?>">
                     <div class="col-sm-12 bttom">
                         <button class="btonEnviar">ENVIAR</button>
                     </div>
@@ -361,17 +378,23 @@
                 <p class="titulo">¡Programa tu cita ahora!</p>
                 <form>
                     <div class="col-sm-12 bttom">
-                        <label>Nombre:</label> <input type="text" name="nombre">
+                        <label>Nombre:</label> <input type="text" name="nombre" required>
                     </div>
                     <div class="col-sm-12 bttom">
-                        <label>Teléfono:</label> <input type="text" name="telefono">
+                        <label>Teléfono:</label> <input type="tel" name="telefono" required>
                     </div>
                     <div class="col-sm-12 bttom">
-                        <label>Correo:</label> <input type="text" name="correo">
+                        <label>Correo:</label> <input type="email" name="correo" required>
                     </div>
                     <div class="col-sm-12 bttom">
-                        <label>Mensaje:</label> <input type="text" name="mensaje">
+                        <label>Mensaje:</label> <input type="text" name="mensaje" required>
                     </div>
+                    <input type="hidden" name="utm_id" value="<?php echo $utm_id; ?>">
+                    <input type="hidden" name="utm_content" value="<?php echo $utm_content; ?>">
+                    <input type="hidden" name="utm_term" value="<?php echo $utm_term; ?>">
+                    <input type="hidden" name="utm_medium" value="<?php echo $utm_medium; ?>">
+                    <input type="hidden" name="utm_source" value="<?php echo $utm_source; ?>">
+                    <input type="hidden" name="utm_campaign" value="<?php echo $utm_campaign; ?>">
                     <div class="col-sm-12 bttom">
                         <button class="btonEnviar">ENVIAR</button>
                     </div>
