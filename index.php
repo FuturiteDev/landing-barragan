@@ -43,8 +43,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 
 
-
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -64,7 +62,7 @@
 <!-- Preloader -->
 <div class="preloader"></div>
 
-<!-- Modal -->
+<!-- Modal 
     <div class="covid19">
         <div class="modal fade" id="popUp" role="dialog">
             <div class="modal-dialog modal-lg">
@@ -76,7 +74,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
 
 <!-- All page content goes inside this div -->
 <div id="pageContent" class="main-wrapper">
@@ -427,12 +425,12 @@
 </html>
 
 <script type="text/javascript">
-    $(window).on('load',function(){
+    /*$(window).on('load',function(){
         $('#popUp').modal('show');
-    });
+    });*/
 </script>
-    <script>
-      function initMap() {
+<script>
+    function initMap() {
         var uluru = {
             lat: 25.671179600611044, 
             lng: -100.34379931801121
@@ -447,7 +445,5 @@
           map: map
         });
       }
-    </script>
-<script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNHj0fqYhnmqCGpJxIQzqJAmxxUXDxJS4&callback=initMap">
-    </script> 
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNHj0fqYhnmqCGpJxIQzqJAmxxUXDxJS4&callback=initMap"></script> 
