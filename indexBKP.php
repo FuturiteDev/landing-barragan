@@ -1,11 +1,3 @@
-<?php
-    $utm_id = !empty($_GET['utm_id']) ? $_GET['utm_id'] : "";
-    $utm_campaign = !empty($_GET['utm_campaign']) ? $_GET['utm_campaign'] : "";
-    $utm_source = !empty($_GET['utm_source']) ? $_GET['utm_source'] : "" ;
-    $utm_medium = !empty($_GET['utm_medium']) ? $_GET['utm_medium'] : ""; 
-    $utm_term = !empty($_GET['utm_term']) ? $_GET['utm_term'] : ""; 
-    $utm_content = !empty($_GET['utm_content']) ? $_GET['utm_content'] : "";
-?>
 <!DOCTYPE html>
 <html lang="es" ng-app="Futurite">
 <head>
@@ -42,7 +34,6 @@
     <link href="assets/css/main.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -53,17 +44,14 @@
 
     <!-- Analytics code -->
     <?php include_once('src/partial/seo/analytics.php'); ?>
-
-    <!-- RECAPTCHA V3 -->
-    <script src="https://www.google.com/recaptcha/api.js?render=6LfqplYcAAAAACr0Ga6LnKyX2SB1J4dguvdf-jgz"></script>
 </head>
 
 <body>
 <!-- Preloader -->
 <div class="preloader"></div>
 
-<!-- Modal 
-    <div class="covid19">
+<!-- Modal -->
+    <!--<div class="covid19">
         <div class="modal fade" id="popUp" role="dialog">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
@@ -97,23 +85,17 @@
                 </p>
                 <form>
                     <div class="col-sm-12 bttom">
-                        <label>Nombre:</label> <input type="text" name="nombre" required>
+                        <label>Nombre:</label> <input type="text" name="nombre">
                     </div>
                     <div class="col-sm-12 bttom">
-                        <label>Teléfono:</label> <input type="tel" name="telefono" required>
+                        <label>Teléfono:</label> <input type="text" name="telefono">
                     </div>
                     <div class="col-sm-12 bttom">
-                        <label>Correo:</label> <input type="email" name="correo" required>
+                        <label>Correo:</label> <input type="text" name="correo">
                     </div>
                     <div class="col-sm-12 bttom">
-                        <label>Mensaje:</label> <input type="text" name="mensaje" required>
+                        <label>Mensaje:</label> <input type="text" name="mensaje">
                     </div>
-                    <input type="hidden" name="utm_id" value="<?php echo $utm_id; ?>">
-                    <input type="hidden" name="utm_content" value="<?php echo $utm_content; ?>">
-                    <input type="hidden" name="utm_term" value="<?php echo $utm_term; ?>">
-                    <input type="hidden" name="utm_medium" value="<?php echo $utm_medium; ?>">
-                    <input type="hidden" name="utm_source" value="<?php echo $utm_source; ?>">
-                    <input type="hidden" name="utm_campaign" value="<?php echo $utm_campaign; ?>">
                     <div class="col-sm-12 bttom">
                         <button class="btonEnviar">ENVIAR</button>
                     </div>
@@ -175,7 +157,7 @@
     </div>
     
     
-    <!-----------------<p class="tipo_de_testimonio">Consulta</p>------>
+    <!----------------------->
     <div class="testimoniales">
         <div class="container">
             <div class="col-sm-12">
@@ -183,85 +165,65 @@
             </div>
             <div class="col-sm-12">
                 <div class="slider-cliente">
+                    <div class="thumbnail">
+                        <div class="div_testimonios">
+                            <p class="nombre_testimonio">Lizeth Gutiérrez</p>
+                            <p><img src="assets/img/estrellas.png" class=""></p>
+                            <p class="parrafo_testimonio">
+                                “Excelente servicio, el doctor es muy profesional en su trabajo, me gustó mucho que nos explico detalle por detalle el antes y el después del procedimiento. Mi esposo se hizo la Lasik. Les recomiendo mucho al Dr. Barragán. Nosotros viajamos desde el Valle de Texas a consultar con él. Altamente recomendado.”
+                            </p>
+                        </div>
+                    </div>
+                    <div class="thumbnail">
+                        <div class="div_testimonios">
+                            <p class="nombre_testimonio">María Fernanda C.</p>
+                            <img src="assets/img/estrellas.png" class="img-responsive">
+                            <p class="parrafo_testimonio">
+                                “Excelentísimo doctor , fuimos por una operación de láser y se tomó el tiempo necesario  para explicar los pro y contra de la decisión que tomaríamos , además de revisar otras cosas en el ojo y recomendarnos lo mejor . Un ser humano muy ético y profesional. Lo Recomiendo al 100%.”
+
+                            </p>
+                        </div>
+                    </div>
 
 
                     <div class="thumbnail">
                         <div class="div_testimonios">
-                            <p class="nombre_testimonio">Gabriela</p>
+                            <p class="nombre_testimonio">Ricardo Tamez</p>
                             <img src="assets/img/estrellas.png" class="img-responsive">
-                            <p class="tipo_de_testimonio">CONSULTA</p>
+                            <p class="parrafo_testimonio">
+                                “Excelente atención del Dr. Barragán. Explica a detalle y te ofrece toda la información. Lo recomiendo.”
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="thumbnail">
+                        <div class="div_testimonios">
+                            <p class="nombre_testimonio">Pao Martínez</p>
+                            <img src="assets/img/estrellas.png" class="img-responsive">
+                            <p class="parrafo_testimonio">
+                                “Excelente doctor, muy atento, y profesional. Atiende todas tus dudas, sin importar cuáles sean. Es muy claro en la explicación de los procedimientos y te da todos los pros y contras que pudieran surgir en lo que sea que necesites. A mí me encantó que me explicó a mi esposo y a mí desde lo más básico que creíamos saber, sin embargo, hubo cosas que nos dijo y nosotros desconocíamos. Yo me hice la cirugía LASIK y estoy totalmente satisfecha con el procedimiento, lo recomiendo ampliamente, sin duda se quedará como el oftalmólogo de cabecera de la familia!”
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="thumbnail">
+                        <div class="div_testimonios">
+                            <p class="nombre_testimonio">Gabriela de la Garza</p>
+                            <img src="assets/img/estrellas.png" class="img-responsive">
                             <p class="parrafo_testimonio">
                                 “Excelente médico, muy profesional, preparado, y atento. Nos atendió incluso en domingo por una emergencia. Estamos muy satisfechos con su labor, totalmente recomendable.”
                             </p>
                         </div>
                     </div>
+
                     <div class="thumbnail">
                         <div class="div_testimonios">
-                            <p class="nombre_testimonio">DAYNA</p>
-                            <p><img src="assets/img/estrellas.png" class=""></p>
-                            <p class="tipo_de_testimonio">CONSULTA</p>
+                            <p class="nombre_testimonio">Karen Sandoval</p>
+                            <img src="assets/img/estrellas.png" class="img-responsive">
                             <p class="parrafo_testimonio">
-                                “Definitivamente estoy muy contenta por el excelente trato, trabajo y atención, me dio toda la confianza del mundo para realizarme mi operación, muchas gracias por su amabilidad y atención”.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="thumbnail">
-                        <div class="div_testimonios">
-                            <p class="nombre_testimonio">VALERIA</p>
-                            <p><img src="assets/img/estrellas.png" class=""></p>
-                            <p class="tipo_de_testimonio">CIRUGÍA LASIK</p>
-                            <p class="parrafo_testimonio">
-                                “Excelente trato por parte del Doctor, el antes, durante y después de su cirugía de ojos fue muy bien, te explica muy bien todo el proceso y cuenta con una buena ética profesional, su diagnósticos preoperatorios son muy buenos y acertados”.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="thumbnail">
-                        <div class="div_testimonios">
-                            <p class="nombre_testimonio">BERENICE</p>
-                            <p><img src="assets/img/estrellas.png" class=""></p>
-                            <p class="tipo_de_testimonio">CIRUGÍA LASIK</p>
-                            <p class="parrafo_testimonio">
-                                “Excelente trato y atención. Es muy prudente con sus recomendaciones. Las instalaciones son de muy buena calidad y accesibles, especialmente para adultos mayores. Los resultados de la cirugía Lasik fueron excelentes”.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="thumbnail">
-                        <div class="div_testimonios">
-                            <p class="nombre_testimonio">KAREN</p>
-                            <p><img src="assets/img/estrellas.png" class=""></p>
-                            <p class="tipo_de_testimonio">CIRUGÍA LASIK</p>
-                            <p class="parrafo_testimonio">
-                                “¡Súper recomendado! Yo me operé con él y me atendió muy bien y no sentí nada durante ni después de la cirugía. Súper atento y amable, te explica todo y se preocupa por dar un buen servicio”.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="thumbnail">
-                        <div class="div_testimonios">
-                            <p class="nombre_testimonio">MARIEL</p>
-                            <p><img src="assets/img/estrellas.png" class=""></p>
-                            <p class="tipo_de_testimonio">QUERATOCONO, COSSLINKING</p>
-                            <p class="parrafo_testimonio">
-                                “Después de consultar con 5 oftalmólogos distintos por mi caso de Queratocono, encontré al doctor, que busca lo mejor para el paciente, es muy sincero y profesional, SÚPER recomendado”.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="thumbnail">
-                        <div class="div_testimonios">
-                            <p class="nombre_testimonio">ABRAHAM</p>
-                            <p><img src="assets/img/estrellas.png" class=""></p>
-                            <p class="tipo_de_testimonio">QUERATOCONO</p>
-                            <p class="parrafo_testimonio">
-                                “Las consultas con él son bastante buenas, yo sufro de Queratocono y se tomó su tiempo para informarme todo acerca de la enfermedad y la operación ni se diga, buenísima. 100% recomendado”. 
-                            </p>
-                        </div>
-                    </div>
-                    <div class="thumbnail">
-                        <div class="div_testimonios">
-                            <p class="nombre_testimonio">JUAN MANUEL</p>
-                            <p><img src="assets/img/estrellas.png" class=""></p>
-                            <p class="tipo_de_testimonio">CIRUGÍA LASIK</p>
-                            <p class="parrafo_testimonio">
-                                “Estoy muy agradecido con el Dr. Enrique Barragán, el doctor es todo un profesional, y también una excelente persona. Consulté en 4 lugares diferentes y me decidí por el doctor por su trato amable y cálido. Su explicación sobre los estudios que realizó me dio más tranquilidad para proceder con la cirugía. Por otro lado, el periodo de recuperación ha sido muy rápido siguiendo sus recomendaciones”.
+                                “Súper recomendado, me operé con él y me fue excelente en la cirugía casi no hubo ninguna molesta y veo mejor que nunca. El doctor se preocupa por dar un buen trato, definitivamente lo recomiendo.”
                             </p>
                         </div>
                     </div>
@@ -357,12 +319,7 @@
     <!-- h_sec9 -->
     <div class="h_sec9">
         <div class="container">
-            <div class="col-md-4 col-sm-4"> 
-                <div class="mapa-tamaño">
-                    <div id="map" class="map"></div> 
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-4">
+            <div class="col-md-6 col-sm-6">
                 <div class="consultorio">
                     Consultorio:<br>
                     <a href="tel:8113650303" onclick="gtag('event','Click Botón',{'event_category':'Seguimiento de llamadas','event_label':'Teléfono Cabecera 2'});" class="tel-cons">81-1365-0303</a><br>
@@ -372,27 +329,21 @@
                     Hidalgo 2040, PB Consultorio 9, Col. Obispado en Monterrey.
                 </p>
             </div>
-            <div class="col-md-4 col-sm-4" id="contacto">
+            <div class="col-md-6 col-sm-6" id="contacto">
                 <p class="titulo">¡Programa tu cita ahora!</p>
                 <form>
                     <div class="col-sm-12 bttom">
-                        <label>Nombre:</label> <input type="text" name="nombre" required>
+                        <label>Nombre:</label> <input type="text" name="nombre">
                     </div>
                     <div class="col-sm-12 bttom">
-                        <label>Teléfono:</label> <input type="tel" name="telefono" required>
+                        <label>Teléfono:</label> <input type="text" name="telefono">
                     </div>
                     <div class="col-sm-12 bttom">
-                        <label>Correo:</label> <input type="email" name="correo" required>
+                        <label>Correo:</label> <input type="text" name="correo">
                     </div>
                     <div class="col-sm-12 bttom">
-                        <label>Mensaje:</label> <input type="text" name="mensaje" required>
+                        <label>Mensaje:</label> <input type="text" name="mensaje">
                     </div>
-                    <input type="hidden" name="utm_id" value="<?php echo $utm_id; ?>">
-                    <input type="hidden" name="utm_content" value="<?php echo $utm_content; ?>">
-                    <input type="hidden" name="utm_term" value="<?php echo $utm_term; ?>">
-                    <input type="hidden" name="utm_medium" value="<?php echo $utm_medium; ?>">
-                    <input type="hidden" name="utm_source" value="<?php echo $utm_source; ?>">
-                    <input type="hidden" name="utm_campaign" value="<?php echo $utm_campaign; ?>">
                     <div class="col-sm-12 bttom">
                         <button class="btonEnviar">ENVIAR</button>
                     </div>
@@ -425,25 +376,7 @@
 </html>
 
 <script type="text/javascript">
-    /*$(window).on('load',function(){
+    $(window).on('load',function(){
         $('#popUp').modal('show');
-    });*/
+    });
 </script>
-<script>
-    function initMap() {
-        var uluru = {
-            lat: 25.671179600611044, 
-            lng: -100.34379931801121
-        };
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 15,
-          center: uluru
-        });
-
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
-</script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNHj0fqYhnmqCGpJxIQzqJAmxxUXDxJS4&callback=initMap"></script> 
