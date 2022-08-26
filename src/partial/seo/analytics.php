@@ -7,6 +7,15 @@
  gtag('config', 'UA-156423137-1');
 </script>
 
+<!-- Global site tag (gtag.js) - Google Ads: 674861893 --> 
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-674861893"></script> 
+<script>
+window.dataLayer = window.dataLayer || []; 
+function gtag(){dataLayer.push(arguments);
+} gtag('js', new Date()); 
+gtag('config', 'AW-674861893'); 
+</script>
+
 <!-- Código de instalación Cliengo para drenriquebarragan.com/ --> 
 <script type="text/javascript">(function () { var ldk = document.createElement('script'); 
 	ldk.type = 'text/javascript'; 
